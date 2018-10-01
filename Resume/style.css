@@ -7,19 +7,27 @@ BODY {
 }
 
  /* Name */
-H1 {
+#name {
   font-size:3em;
+  color:#33485e
   text-transform: uppercase;
   text-align:center;
+  border-bottom: 1px #33485e;
+  width: 60%
+  min-width: 300px
+  margin: 0 auto
 }
 
  /* Section titles */
-H2 {
+.sectionheader {
   font-size:1.5em;
   background:#33485e;
   color: #fff;
   text-transform: uppercase;
   font-weight:400;
+  width: 70%
+  min-width: 300px
+  margin: 20px 0 10px 0 ;
 }
 
  /* My Title */
@@ -28,6 +36,7 @@ strong {
   text-transform: uppercase;
   text-align:center;
   font-size:1.5em;
+  font-weight:400;
 }
 
 /* Job Title */
