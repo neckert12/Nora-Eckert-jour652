@@ -94,8 +94,8 @@ li {
   }
 
   .top {
-    width: 60%
-    min-width: 300px
+    width: 60%;
+    min-width: 300px;
     margin: 0 auto;
     margin-bottom: 30px;
   }
