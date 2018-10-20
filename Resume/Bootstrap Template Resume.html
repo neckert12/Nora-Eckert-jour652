@@ -1,3 +1,4 @@
+<!doctype html>
 
 <!doctype html>
 
@@ -15,113 +16,364 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
 
   <link rel="stylesheet" href="Bootstrap Resume.css">
+  <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+  <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+<!--This is the rotating menu below my upper banner-->
+  <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
 </head>
 <body>
+<!--banner image-->
 
-  <!-- NavBar -->
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <a class="navbar-brand" href="#">Portfolio</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav mr-auto">
-        <li class="nav-item active">
-          <a class="nav-link" href="#">Education <span class="sr-only">(current)</span></a>
-        </li>
-        <!-- Link -->
-        <li class="nav-item">
-          <a class="nav-link" href="#">Contact</a>
-        </li>
-        <!-- End Link -->
+  <img class="banner" src="BannerFinal copy.jpg">
 
-      </ul>
-      <form class="form-inline my-2 my-lg-0">
-        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-      </form>
-    </div>
-  </nav>
-  <!-- End NavBar -->
-
-  <div class="jumbotron">
-   <h1 class="display-4">Nora Eckert</h1>
-   <p class="lead">Journalist</p>
-   <ul class="menu">
-       <li><a href="mailto: noraeckert10@gmail.com"> Email</a></li>
-
-       <li><a href="https://www.linkedin.com/in/nora-eckert">LinkedIn</a></li>
-
-       <li><a href="https://twitter.com/noraeckert">Twitter</a></li>
-
-       <li><a href="https://github.com/neckert12">Github</a></li>
-   </ul>
-   <hr class="my-4">
-   <img src="Resumebackground.jpg" width="400" height="250" align="right">
-   <p>Experienced in copyediting, marketing, and creating work that joins the worlds of creative writing and digital media. I am currently developing my skills in data journalism and investigative reporting through a rigorous graduate program, and look forward to applying those abilities in a reporting position after graduation.
-
-
-</p>
-   <p class="lead">
-     <a class="View" href="#" role="button">Download Resume</a>
-   </p>
-  </div>
-
-  <div class="container">
-      <div class="row">
-
-
-              <div class="col-md-4">
-                      <h3>Education</h3>
-                      <p>Excellent academic record with ongoing training in data journalism, investigative reporting, and multimedia communication.</p>
+<!--Rotating Menu part-->
+  <section id="team" class="pb-5">
+      <div class="container">
+        <h5 class="section-title h1"><br>Education</h5>
+          <div class="row">
+              <!-- Team member -->
+              <div class="col-xs-12 col-sm-6 col-md-4">
+                  <div class="image-flip" ontouchstart="this.classList.toggle('hover');">
+                      <div class="mainflip">
+                          <div class="frontside">
+                              <div class="card">
+                                  <div class="card-body text-center">
+                                      <p><img class=" img-fluid" src="Wisconsin.jpg" alt="Wisconsin"></p>
+                                      <h4 class="card-title">Bachelor of Arts</h4>
+                                      <p class="card-text">Major: English, Minor: Business <br>St. Norbert College
+                                        <br><em>2013-2017</em></p>
+                                      <a href="#" class="btn btn-primary btn-sm"><i class="fa fa-plus"></i></a>
+                                  </div>
+                              </div>
+                          </div>
+                          <div class="backside">
+                              <div class="card">
+                                  <div class="card-body text-center mt-4">
+                                      <h4 class="card-title">Undergraduate Eduction</h4>
+                                      <p class="card-text">Maintained a 4.0 GPA while participating in social justice organizations, several jobs, and leadership positions. <br> <br> Member of Honor Society</p>
+                                      <ul class="list-inline">
+                                          <li class="list-inline-item">
+                                              <a class="social-icon text-xs-center" target="_blank" href="#">
+                                                  <i class="fa fa-facebook"></i>
+                                              </a>
+                                          </li>
+                                          <li class="list-inline-item">
+                                              <a class="social-icon text-xs-center" target="_blank" href="#">
+                                                  <i class="fa fa-twitter"></i>
+                                              </a>
+                                          </li>
+                                          <li class="list-inline-item">
+                                              <a class="social-icon text-xs-center" target="_blank" href="#">
+                                                  <i class="fa fa-skype"></i>
+                                              </a>
+                                          </li>
+                                          <li class="list-inline-item">
+                                              <a class="social-icon text-xs-center" target="_blank" href="#">
+                                                  <i class="fa fa-google"></i>
+                                              </a>
+                                          </li>
+                                      </ul>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
               </div>
-
-
-              <div class="col-md-4">
-                      <h3>Experience</h3>
-                      <p>Developed portfolio of radio, podcast, video, and article work.</p>
+              <!-- ./Team member -->
+              <!-- Team member -->
+              <div class="col-xs-12 col-sm-6 col-md-4">
+                  <div class="image-flip" ontouchstart="this.classList.toggle('hover');">
+                      <div class="mainflip">
+                          <div class="frontside">
+                              <div class="card">
+                                  <div class="card-body text-center">
+                                      <p><img class=" img-fluid" src="England.jpg" alt="England"></p>
+                                      <h4 class="card-title">Study Abroad</h4>
+                                      <p class="card-text">Institute: Foundation for International Education London <br> <em>Jan-May, 2017</em></p>
+                                      <a href="#" class="btn btn-primary btn-sm"><i class="fa fa-plus"></i></a>
+                                  </div>
+                              </div>
+                          </div>
+                          <div class="backside">
+                              <div class="card">
+                                  <div class="card-body text-center mt-4">
+                                      <h4 class="card-title">London, England</h4>
+                                      <p class="card-text">I traveled to five different countries while studying in London, England. <br><br> I studied British history, art, and literature. <br><br>While studying, I interned at CoVi think tank, and helped organize events held at Parliament.</p>
+                                      <ul class="list-inline">
+                                          <li class="list-inline-item">
+                                              <a class="social-icon text-xs-center" target="_blank" href="#">
+                                                  <i class="fa fa-facebook"></i>
+                                              </a>
+                                          </li>
+                                          <li class="list-inline-item">
+                                              <a class="social-icon text-xs-center" target="_blank" href="#">
+                                                  <i class="fa fa-twitter"></i>
+                                              </a>
+                                          </li>
+                                          <li class="list-inline-item">
+                                              <a class="social-icon text-xs-center" target="_blank" href="#">
+                                                  <i class="fa fa-skype"></i>
+                                              </a>
+                                          </li>
+                                          <li class="list-inline-item">
+                                              <a class="social-icon text-xs-center" target="_blank" href="#">
+                                                  <i class="fa fa-google"></i>
+                                              </a>
+                                          </li>
+                                      </ul>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
               </div>
-
-              <div class="col-md-4">
-                      <h3>Goal-Oriented</h3>
-                      <p>Actively working towards a career as an investigative journalist.</p>
+              <!-- ./Team member -->
+              <!-- Team member -->
+              <div class="col-xs-12 col-sm-6 col-md-4">
+                  <div class="image-flip" ontouchstart="this.classList.toggle('hover');">
+                      <div class="mainflip">
+                          <div class="frontside">
+                              <div class="card">
+                                  <div class="card-body text-center">
+                                      <p><img class=" img-fluid" src="https://sunlimetech.com/portfolio/boot4menu/assets/imgs/team/img_03.png" alt="card image"></p>
+                                      <h4 class="card-title">Sunlimetech</h4>
+                                      <p class="card-text">This is basic card with image on top, title, description and button.</p>
+                                      <a href="#" class="btn btn-primary btn-sm"><i class="fa fa-plus"></i></a>
+                                  </div>
+                              </div>
+                          </div>
+                          <div class="backside">
+                              <div class="card">
+                                  <div class="card-body text-center mt-4">
+                                      <h4 class="card-title">Sunlimetech</h4>
+                                      <p class="card-text">This is basic card with image on top, title, description and button.This is basic card with image on top, title, description and button.This is basic card with image on top, title, description and button.</p>
+                                      <ul class="list-inline">
+                                          <li class="list-inline-item">
+                                              <a class="social-icon text-xs-center" target="_blank" href="#">
+                                                  <i class="fa fa-facebook"></i>
+                                              </a>
+                                          </li>
+                                          <li class="list-inline-item">
+                                              <a class="social-icon text-xs-center" target="_blank" href="#">
+                                                  <i class="fa fa-twitter"></i>
+                                              </a>
+                                          </li>
+                                          <li class="list-inline-item">
+                                              <a class="social-icon text-xs-center" target="_blank" href="#">
+                                                  <i class="fa fa-skype"></i>
+                                              </a>
+                                          </li>
+                                          <li class="list-inline-item">
+                                              <a class="social-icon text-xs-center" target="_blank" href="#">
+                                                  <i class="fa fa-google"></i>
+                                              </a>
+                                          </li>
+                                      </ul>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
               </div>
+          </div>
       </div>
-</div>
+  </section>
 
-<div class="jumbotron jumbotron-fluid">
+<!--Timeline from Bootstrap-->
+<div class="">
   <div class="container">
-    <h1 class="display-4">Experience</h1>
-    <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
+    <h2 class="pb-3 pt-2 border-bottom mb-5">Journalism, Marketing and Communications Experience</h2>
+    <!--first section-->
+    <div class="row align-items-center how-it-works d-flex">
+      <div class="col-2 text-center bottom d-inline-flex justify-content-center align-items-center">
+        <div class="circle font-weight-bold">1</div>
+      </div>
+      <div class="col-6">
+        <h5>Marketing and Communications Specialist: <a href="http://www.imanislife.com">Imanis Life Sciences</a></h5>
+        <p>As Imanis' sole member of the marketing team I was responsible for interpreting website traffic and sales data to strategize, design, and implement marketing campaigns. Additionally, I researched, conducted, and edited video interviews with industry leaders for the company website. Finally, I forged and maintained new relationships with customers, potential leads, and industry collaborators.</p>
+      </div>
+    </div>
+    <!--path between 1-2-->
+    <div class="row timeline">
+      <div class="col-2">
+        <div class="corner top-right"></div>
+      </div>
+      <div class="col-8">
+        <hr/>
+      </div>
+      <div class="col-2">
+        <div class="corner left-bottom"></div>
+      </div>
+    </div>
+    <!--second section-->
+    <div class="row align-items-center justify-content-end how-it-works d-flex">
+      <div class="col-6 text-right">
+        <h5>Founder: <a href="http://www.theconversationalistnora.com">The Conversationalist</a></h5>
+        <p>This website is a self-started and maintained platform aimed at encouraging empathetic interaction through longform videos, podcasts, and articles. I have researched and connected with interviewees ranging from the <a href="https://theconversationalistnora.com/2017/12/27/a-conversation-with-federico-faggin-inventor-of-the-first-commercial-microprocessor/">inventor of the first commercial microprocessor</a> to the <a href="https://theconversationalistnora.com/2016/10/06/stephen-russell/">director of Molecular Medicine</a> at Mayo Clinic. Through this process, I have increased my competency in website design, video, and audio editing.</p>
+      </div>
+      <div class="col-2 text-center full d-inline-flex justify-content-center align-items-center">
+        <div class="circle font-weight-bold">2</div>
+      </div>
+    </div>
+    <!--path between 2-3-->
+    <div class="row timeline">
+      <div class="col-2">
+        <div class="corner right-bottom"></div>
+      </div>
+      <div class="col-8">
+        <hr/>
+      </div>
+      <div class="col-2">
+        <div class="corner top-left"></div>
+      </div>
+    </div>
+    <!--third section-->
+    <div class="row align-items-center how-it-works d-flex">
+      <div class="col-2 text-center top d-inline-flex justify-content-center align-items-center">
+        <div class="circle font-weight-bold">3</div>
+      </div>
+      <div class="col-6">
+        <h5>Teaching Assistant: Media Law</h5>
+        <p>Description</p>
+      </div>
+    <!--path between 3-4-->
+</div>
+<div class="row timeline">
+  <div class="col-2">
+    <div class="corner top-right"></div>
+  </div>
+  <div class="col-8">
+    <hr/>
+  </div>
+  <div class="col-2">
+    <div class="corner left-bottom"></div>
   </div>
 </div>
-
-<div class="col-md-4">
-        <h3>Marketing and Communications Specialist</h3>
-        <h5>Imanis Life Sciences</h5>
-        <p><i>June 2017-June 2018</i></p>
-        <p>As Imanis' sole member of the marketing team I was responsible for interpreting website traffic and sales data to strategize, design, and implement marketing campaigns. Additionally, I researched, conducted, and edited video interviews with industry leaders for the company website. Finally, I forged and maintained new relationships with customers, potential leads, and industry collaborators.</p>
+  <!--fourth section-->
+<div class="row align-items-center justify-content-end how-it-works d-flex">
+  <div class="col-6 text-right">
+    <h5>Freelane Reporter: Greenbelt News Review</h5>
+    <p>Description</p>
+  </div>
+  <div class="col-2 text-center full d-inline-flex justify-content-center align-items-center">
+    <div class="circle font-weight-bold">4</div>
+  </div>
 </div>
-
-
-<div class="col-md-4">
-  <h3>Senior Consultant</h3>
-  <h5>St. Norbert College Writing Center</h5>
-  <p><i>Jan. 2015-May 2017</i></p>
+<!--path between 4-5-->
+<div class="row timeline">
+  <div class="col-2">
+    <div class="corner right-bottom"></div>
+  </div>
+  <div class="col-8">
+    <hr/>
+  </div>
+  <div class="col-2">
+    <div class="corner top-left"></div>
+  </div>
+</div>
+<!--fifth section-->
+<div class="row align-items-center how-it-works d-flex">
+  <div class="col-2 text-center top d-inline-flex justify-content-center align-items-center">
+    <div class="circle font-weight-bold">5</div>
+  </div>
+  <div class="col-6">
+    <h5>Freelance Reporter: Med City Beat</h5>
+    <p>Description</p>
+  </div>
+  <!--path between 5-6-->
+</div>
+<div class="row timeline">
+<div class="col-2">
+  <div class="corner top-right"></div>
+</div>
+<div class="col-8">
+  <hr/>
+</div>
+<div class="col-2">
+  <div class="corner left-bottom"></div>
+  </div>
+</div>
+<!--sixth section-->
+<div class="row align-items-center justify-content-end how-it-works d-flex">
+<div class="col-6 text-right">
+  <h5>Senior Consultant: St. Norbert College Writing Center</a></h5>
   <p>I refined my writing and editing skills while analyzing 15-20 client samples per week, ranging from lab reports to creative writing pieces. Also, I improved my ability to analyze the essential parts of an argument and communicate editing suggestions to clients.</p>
 </div>
-
-<div class="col-md-4">
-  <h3>Founder</h3>
-  <h5>The Conversationalist <a href="https://www.theconversationalistnora.com"></a></h5>
-  <p><i>April 2016-present</i></p>
-  <p>This website is a self-started and maintained platform aimed at encouraging empathetic interaction through longform videos, podcasts, and articles. I have researched and connected with interviewees ranging from the inventor of the first commercial microprocessor to the director of Molecular Medicine at Mayo Clinic. Through this process, I have increased my competency in website design, video, and audio editing.</p>
+<div class="col-2 text-center full d-inline-flex justify-content-center align-items-center">
+  <div class="circle font-weight-bold">6</div>
 </div>
-
 </div>
-
-
+<!--path between 6-7-->
+<div class="row timeline">
+<div class="col-2">
+  <div class="corner right-bottom"></div>
+</div>
+<div class="col-8">
+  <hr/>
+</div>
+<div class="col-2">
+  <div class="corner top-left"></div>
+</div>
+</div>
+<!--seventh section-->
+<div class="row align-items-center how-it-works d-flex">
+<div class="col-2 text-center top d-inline-flex justify-content-center align-items-center">
+  <div class="circle font-weight-bold">7</div>
+</div>
+<div class="col-6">
+  <h5>Research Intern: <a href="http://www.covi.org.uk/">Covi Think Tank</a></h5>
+  <p>Operating under high levels of uncertainty, I summarized and interpreted difficult legal material, composing briefs used by Brown County Court Judges in applying decision to cases.</p>
+</div>
+</div>
+<!--path between 7-8-->
+<div class="row timeline">
+<div class="col-2">
+  <div class="corner top-right"></div>
+</div>
+<div class="col-8">
+  <hr/>
+</div>
+<div class="col-2">
+  <div class="corner left-bottom"></div>
+</div>
+</div>
+<!--eighth section-->
+<div class="row align-items-center justify-content-end how-it-works d-flex">
+<div class="col-6 text-right">
+  <h5>Editing Intern: A Journal of George MacDonald Studies</a></h5>
+  <p>I edited submissions to the globally distributed North Wind journal, advancing my copyediting abilities and competency in Adobe InDesign.</p>
+</div>
+<div class="col-2 text-center full d-inline-flex justify-content-center align-items-center">
+  <div class="circle font-weight-bold">6</div>
+</div>
+</div>
+<!--path between 8-9-->
+<div class="row timeline">
+<div class="col-2">
+  <div class="corner right-bottom"></div>
+</div>
+<div class="col-8">
+  <hr/>
+</div>
+<div class="col-2">
+  <div class="corner top-left"></div>
+</div>
+</div>
+<!--ninth section-->
+<div class="row align-items-center how-it-works d-flex">
+<div class="col-2 text-center top d-inline-flex justify-content-center align-items-center">
+  <div class="circle font-weight-bold">9</div>
+</div>
+<div class="col-6">
+  <h5>Legal Clerk Intern: Brown County Courthouse</h5>
+  <p>Operating under high levels of uncertainty, I summarized and interpreted difficult legal material, composing briefs used by Brown County Court Judges in applying decision to cases.</p>
+</div>
+</div>
 
 
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
