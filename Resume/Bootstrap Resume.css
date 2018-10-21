@@ -22,9 +22,15 @@
 
 .btn-primary {
     color: #fff;
+<<<<<<< HEAD
     background-color: red;
     border-color: red;
 }
+=======
+    background-color: #007b5e;
+    border-color: #007b5e;
+}8
+>>>>>>> 4d0ae564f6fe65719ecd698ec11831cc071c80d6
 
 section {
     padding: 60px 0;
@@ -36,12 +42,15 @@ section .section-title {
     margin-bottom: 50px;
 }
 
+<<<<<<< HEAD
 #team1 .card {
     border-style: solid;
     boarder-width: 5px;
     background: white;
 }
 
+=======
+>>>>>>> 4d0ae564f6fe65719ecd698ec11831cc071c80d6
 #team .card {
     border: none;
     background: #ffffff;
