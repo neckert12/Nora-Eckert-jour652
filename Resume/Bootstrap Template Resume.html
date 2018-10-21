@@ -15,113 +15,707 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
 
   <link rel="stylesheet" href="Bootstrap Resume.css">
+  <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+  <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+<!--This is the rotating menu below my upper banner-->
+  <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
 </head>
 <body>
+<!--banner image-->
 
-  <!-- NavBar -->
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <a class="navbar-brand" href="#">Portfolio</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav mr-auto">
-        <li class="nav-item active">
-          <a class="nav-link" href="#">Education <span class="sr-only">(current)</span></a>
-        </li>
-        <!-- Link -->
-        <li class="nav-item">
-          <a class="nav-link" href="#">Contact</a>
-        </li>
-        <!-- End Link -->
+  <img class="banner" src="BannerFinal copy.jpg">
 
-      </ul>
-      <form class="form-inline my-2 my-lg-0">
-        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-      </form>
-    </div>
-  </nav>
-  <!-- End NavBar -->
+  <!--Rotating Menu part-->
+    <section id="team1" class="pb-5">
+        <div class="container">
+          <!--If i want a header <h5 class="section-title h1"><br>Portfolio</h5>-->
+            <div class="row">
+                <!-- Team member -->
+                <div class="col-xs-12 col-sm-6 col-md-4">
+                    <div class="image-flip" ontouchstart="this.classList.toggle('hover');">
+                        <div class="mainflip">
+                            <div class="frontside">
+                                <div class="card">
+                                    <div class="card-body text-center">
+                                        <p><img class=" img-fluid" src="magnifyingglass.png" alt="Wisconsin"></p>
+                                        <h4 class="card-title">Investigative Reporting</h4>
+                                        <!--If I want a subheading class="card-text"> <br>St. Norbert College
+                                          <br><em>2013-2017</em></p>-->
+                                        <a href="#" class="btn btn-primary btn-sm"><i class="fa fa-plus"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="backside">
+                                <div class="card">
+                                    <div class="card-body text-center mt-4">
+                                        <h4 class="card-title">Quality Reporting</h4>
+                                        <p class="card-text">Researched and reported on plea bargains, bail reform, and the incarceration of the mentally ill. <br><br> Passionate about investigating stories deeply to protray the most accurate reality possible.
+                                        <ul class="list-inline">
+                                            <li class="list-inline-item">
+                                                <a class="social-icon text-xs-center" target="_blank" href="#">
+                                                    <i class="fa fa-facebook"></i>
+                                                </a>
+                                            </li>
+                                            <li class="list-inline-item">
+                                                <a class="social-icon text-xs-center" target="_blank" href="#">
+                                                    <i class="fa fa-twitter"></i>
+                                                </a>
+                                            </li>
+                                            <li class="list-inline-item">
+                                                <a class="social-icon text-xs-center" target="_blank" href="#">
+                                                    <i class="fa fa-skype"></i>
+                                                </a>
+                                            </li>
+                                            <li class="list-inline-item">
+                                                <a class="social-icon text-xs-center" target="_blank" href="#">
+                                                    <i class="fa fa-google"></i>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- ./Team member -->
+                <!-- Team member -->
+                <div class="col-xs-12 col-sm-6 col-md-4">
+                    <div class="image-flip" ontouchstart="this.classList.toggle('hover');">
+                        <div class="mainflip">
+                            <div class="frontside">
+                                <div class="card">
+                                    <div class="card-body text-center">
+                                        <p><img class=" img-fluid" src="Datajournalism.png" alt="Data"></p>
+                                        <h4 class="card-title">Data Journalism</h4>
+                                        <!--If I want a subheading <p class="card-text">Institute: Foundation for International Education London <br> <em>Jan-May, 2017</em></p>-->
+                                        <a href="#" class="btn btn-primary btn-sm"><i class="fa fa-plus"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="backside">
+                                <div class="card">
+                                    <div class="card-body text-center mt-4">
+                                        <h4 class="card-title">Inspecting Data</h4>
+                                        <p class="card-text">I have exprience querying data with SQL and plan to become proficient in R through my graduate studies. <br><br> I am greatly interested in how data can tell stories and contribute to reporting.</p>
+                                        <ul class="list-inline">
+                                            <li class="list-inline-item">
+                                                <a class="social-icon text-xs-center" target="_blank" href="#">
+                                                    <i class="fa fa-facebook"></i>
+                                                </a>
+                                            </li>
+                                            <li class="list-inline-item">
+                                                <a class="social-icon text-xs-center" target="_blank" href="#">
+                                                    <i class="fa fa-twitter"></i>
+                                                </a>
+                                            </li>
+                                            <li class="list-inline-item">
+                                                <a class="social-icon text-xs-center" target="_blank" href="#">
+                                                    <i class="fa fa-skype"></i>
+                                                </a>
+                                            </li>
+                                            <li class="list-inline-item">
+                                                <a class="social-icon text-xs-center" target="_blank" href="#">
+                                                    <i class="fa fa-google"></i>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- ./Team member -->
+                <!-- Team member -->
+                <div class="col-xs-12 col-sm-6 col-md-4">
+                    <div class="image-flip" ontouchstart="this.classList.toggle('hover');">
+                        <div class="mainflip">
+                            <div class="frontside">
+                                <div class="card">
+                                    <div class="card-body text-center">
+                                        <p><img class=" img-fluid" src="Playbutton.png" alt="Play button"></p>
+                                        <h4 class="card-title">Multimedia reporting</h4>
+                                        <!--If I want a subclass <p class="card-text">University of Maryland <br> Philip Merrill College of Journalism <br>2018-2020</p>-->
+                                        <a href="#" class="btn btn-primary btn-sm"><i class="fa fa-plus"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="backside">
+                                <div class="card">
+                                    <div class="card-body text-center mt-4">
+                                        <h4 class="card-title">Reaching Wide Audiences</h4>
+                                        <p class="card-text">I have experience producing high-quality video and podcast content for my own website, and for organizations such as Imanis Life Sciences and Reporters Without Borders.</p>
+                                        <ul class="list-inline">
+                                            <li class="list-inline-item">
+                                                <a class="social-icon text-xs-center" target="_blank" href="#">
+                                                    <i class="fa fa-facebook"></i>
+                                                </a>
+                                            </li>
+                                            <li class="list-inline-item">
+                                                <a class="social-icon text-xs-center" target="_blank" href="#">
+                                                    <i class="fa fa-twitter"></i>
+                                                </a>
+                                            </li>
+                                            <li class="list-inline-item">
+                                                <a class="social-icon text-xs-center" target="_blank" href="#">
+                                                    <i class="fa fa-skype"></i>
+                                                </a>
+                                            </li>
+                                            <li class="list-inline-item">
+                                                <a class="social-icon text-xs-center" target="_blank" href="#">
+                                                    <i class="fa fa-google"></i>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-  <div class="jumbotron">
-   <h1 class="display-4">Nora Eckert</h1>
-   <p class="lead">Journalist</p>
-   <ul class="menu">
-       <li><a href="mailto: noraeckert10@gmail.com"> Email</a></li>
-
-       <li><a href="https://www.linkedin.com/in/nora-eckert">LinkedIn</a></li>
-
-       <li><a href="https://twitter.com/noraeckert">Twitter</a></li>
-
-       <li><a href="https://github.com/neckert12">Github</a></li>
-   </ul>
-   <hr class="my-4">
-   <img src="Resumebackground.jpg" width="400" height="250" align="right">
-   <p>Experienced in copyediting, marketing, and creating work that joins the worlds of creative writing and digital media. I am currently developing my skills in data journalism and investigative reporting through a rigorous graduate program, and look forward to applying those abilities in a reporting position after graduation.
-
-
-</p>
-   <p class="lead">
-     <a class="View" href="#" role="button">Download Resume</a>
-   </p>
-  </div>
-
+<!--Timeline from Bootstrap-->
+<div class="">
   <div class="container">
-      <div class="row">
-
-
-              <div class="col-md-4">
-                      <h3>Education</h3>
-                      <p>Excellent academic record with ongoing training in data journalism, investigative reporting, and multimedia communication.</p>
-              </div>
-
-
-              <div class="col-md-4">
-                      <h3>Experience</h3>
-                      <p>Developed portfolio of radio, podcast, video, and article work.</p>
-              </div>
-
-              <div class="col-md-4">
-                      <h3>Goal-Oriented</h3>
-                      <p>Actively working towards a career as an investigative journalist.</p>
-              </div>
+    <h2 class="pb-3 pt-2 border-bottom mb-5">Journalism, Marketing and Communications Experience</h2>
+    <!--first section-->
+    <div class="row align-items-center how-it-works d-flex">
+      <div class="col-2 text-center bottom d-inline-flex justify-content-center align-items-center">
+        <div class="circle font-weight-bold">1</div>
       </div>
-</div>
+      <div class="col-6">
+        <h5>Marketing and Communications Specialist: <a href="http://www.imanislife.com">Imanis Life Sciences</a></h5>
+        <p>As Imanis' sole member of the marketing team I was responsible for interpreting website traffic and sales data to strategize, design, and implement marketing campaigns. Additionally, I researched, conducted, and edited video interviews with industry leaders for the company website. Finally, I forged and maintained new relationships with customers, potential leads, and industry collaborators.</p>
+      </div>
+    </div>
+    <!--path between 1-2-->
+    <div class="row timeline">
+      <div class="col-2">
+        <div class="corner top-right"></div>
+      </div>
+      <div class="col-8">
+        <hr/>
+      </div>
+      <div class="col-2">
+        <div class="corner left-bottom"></div>
+      </div>
+    </div>
+    <!--second section-->
+    <div class="row align-items-center justify-content-end how-it-works d-flex">
+      <div class="col-6 text-right">
+        <h5>Founder: <a href="http://www.theconversationalistnora.com">The Conversationalist</a></h5>
+        <p>This website is a self-started and maintained platform aimed at encouraging empathetic interaction through longform videos, podcasts, and articles. I have researched and connected with interviewees ranging from the <a href="https://theconversationalistnora.com/2017/12/27/a-conversation-with-federico-faggin-inventor-of-the-first-commercial-microprocessor/">inventor of the first commercial microprocessor</a> to the <a href="https://theconversationalistnora.com/2016/10/06/stephen-russell/">director of Molecular Medicine</a> at Mayo Clinic. Through this process, I have increased my competency in website design, video, and audio editing.</p>
+      </div>
+      <div class="col-2 text-center full d-inline-flex justify-content-center align-items-center">
+        <div class="circle font-weight-bold">2</div>
+      </div>
+    </div>
+    <!--path between 2-3
+    <div class="row timeline">
+      <div class="col-2">
+        <div class="corner right-bottom"></div>
+      </div>
+      <div class="col-8">
+        <hr/>
+      </div>
+      <div class="col-2">
+        <div class="corner top-left"></div>
+      </div>
+    </div>-->
+    <!--Conversationalist Portfolio-->
+      <section id="team1" class="pb-5">
+          <div class="container">
+            <!--If i want a header <h5 class="section-title h1"><br>Portfolio</h5>-->
+              <div class="row">
+                  <!-- Team member -->
+                  <div class="col-xs-12 col-sm-6 col-md-4">
+                      <div class="image-flip" ontouchstart="this.classList.toggle('hover');">
+                          <div class="mainflip">
+                              <div class="frontside">
+                                  <div class="card">
+                                      <div class="card-body text-center">
+                                          <p><img class=" img-fluid" src="Federico.png" alt="Federico"></p>
+                                          <h4 class="card-title">A Conversation with Federico Faggin</h4>
+                                          <!--If I want a subheading class="card-text"> <br>St. Norbert College
+                                            <br><em>2013-2017</em></p>-->
+                                          <a href="#" class="btn btn-primary btn-sm"><i class="fa fa-plus"></i></a>
+                                      </div>
+                                  </div>
+                              </div>
+                              <div class="backside">
+                                  <div class="card">
+                                      <div class="card-body text-center mt-4">
+                                          <h4 class="card-title"><a href="https://theconversationalistnora.com/2017/12/27/a-conversation-with-federico-faggin-inventor-of-the-first-commercial-microprocessor/"><strong>WATCH HERE</strong><a/></h4>
+                                          <p class="card-text">The inventor of the first commerical microprocessor reflects on his world-changing invention, and describes his developing model that the foundation of the universe is consciousness, not matter.
 
-<div class="jumbotron jumbotron-fluid">
-  <div class="container">
-    <h1 class="display-4">Experience</h1>
-    <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
+
+                                      </div>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+                  <!-- ./Team member -->
+                  <!-- Team member -->
+                  <div class="col-xs-12 col-sm-6 col-md-4">
+                      <div class="image-flip" ontouchstart="this.classList.toggle('hover');">
+                          <div class="mainflip">
+                              <div class="frontside">
+                                  <div class="card">
+                                      <div class="card-body text-center">
+                                          <p><img class=" img-fluid" src="Norablackandwhite.png" alt="Nora"></p>
+                                          <h4 class="card-title">A Year in Review</h4>
+                                          <!--If I want a subheading <p class="card-text">Institute: Foundation for International Education London <br> <em>Jan-May, 2017</em></p>-->
+                                          <a href="#" class="btn btn-primary btn-sm"><i class="fa fa-plus"></i></a>
+                                      </div>
+                                  </div>
+                              </div>
+                              <div class="backside">
+                                  <div class="card">
+                                      <div class="card-body text-center mt-4">
+                                          <h4 class="card-title"><strong><a href="https://theconversationalistnora.com/2017/09/02/a-year-older/">WATCH HERE</strong></a></h4>
+                                          <p class="card-text">I review the first year of The Conversationalist, thanking the viewers from dozens of different countries, and going over some of the highlights of the year's interview (as well as some bloopers).</p>
+
+                                                  </a>
+                                              </li>
+                                          </ul>
+                                      </div>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+                  <!-- ./Team member -->
+                  <!-- Team member -->
+                  <div class="col-xs-12 col-sm-6 col-md-4">
+                      <div class="image-flip" ontouchstart="this.classList.toggle('hover');">
+                          <div class="mainflip">
+                              <div class="frontside">
+                                  <div class="card">
+                                      <div class="card-body text-center">
+                                          <p><img class=" img-fluid" src="Nick.png" alt="Nick"></p>
+                                          <h4 class="card-title">Day in the Life: Stationary Astronaut</h4>
+                                          <!--If I want a subclass <p class="card-text">University of Maryland <br> Philip Merrill College of Journalism <br>2018-2020</p>-->
+                                          <a href="#" class="btn btn-primary btn-sm"><i class="fa fa-plus"></i></a>
+                                      </div>
+                                  </div>
+                              </div>
+                              <div class="backside">
+                                  <div class="card">
+                                      <div class="card-body text-center mt-4">
+                                          <h4 class="card-title"><a  href="https://theconversationalistnora.com/2018/07/20/a-conversation-with-nick-mclaughlin-founder-of-stationary-astronaut/"<strong>WATCH HERE</strong></a></h4>
+                                          <p class="card-text">I followed around entrepreneur Nick McLaughlin as he prepared for the largest event of his year. As we drove between meetings, I interviewed him about what motivates him, the trials of fundraising, and how to combat a community-wide epidemic of apathy.</p>
+
+
+                                      </div>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </section>
+<!--Conversationalist Portfolio-->
+
+    <!--third section-->
+    <div class="row align-items-center how-it-works d-flex">
+      <div class="col-2 text-center top d-inline-flex justify-content-center align-items-center">
+        <div class="circle font-weight-bold">3</div>
+      </div>
+      <div class="col-6">
+        <h5>Teaching Assistant: Media Law</h5>
+        <p>Description</p>
+      </div>
+    <!--path between 3-4-->
+</div>
+<div class="row timeline">
+  <div class="col-2">
+    <div class="corner top-right"></div>
+  </div>
+  <div class="col-8">
+    <hr/>
+  </div>
+  <div class="col-2">
+    <div class="corner left-bottom"></div>
   </div>
 </div>
-
-<div class="col-md-4">
-        <h3>Marketing and Communications Specialist</h3>
-        <h5>Imanis Life Sciences</h5>
-        <p><i>June 2017-June 2018</i></p>
-        <p>As Imanis' sole member of the marketing team I was responsible for interpreting website traffic and sales data to strategize, design, and implement marketing campaigns. Additionally, I researched, conducted, and edited video interviews with industry leaders for the company website. Finally, I forged and maintained new relationships with customers, potential leads, and industry collaborators.</p>
+  <!--fourth section-->
+<div class="row align-items-center justify-content-end how-it-works d-flex">
+  <div class="col-6 text-right">
+    <h5>Freelance Reporter: Greenbelt News Review</h5>
+    <p>Produced regular front-page content on the historic town of Greenbelt on content ranging from council meetings to profiles of local community members. </p>
+  </div>
+  <div class="col-2 text-center full d-inline-flex justify-content-center align-items-center">
+    <div class="circle font-weight-bold">4</div>
+  </div>
 </div>
+<!--path between 4-5-->
+<div class="row timeline">
+  <div class="col-2">
+    <div class="corner right-bottom"></div>
+  </div>
+  <div class="col-8">
+    <hr/>
+  </div>
+  <div class="col-2">
+    <div class="corner top-left"></div>
+  </div>
+</div>
+<!--fifth section-->
+<div class="row align-items-center how-it-works d-flex">
+  <div class="col-2 text-center top d-inline-flex justify-content-center align-items-center">
+    <div class="circle font-weight-bold">5</div>
+  </div>
+  <div class="col-6">
+    <h5>Freelance Reporter: Med City Beat</h5>
+    <p>Description</p>
+  </div>
+  <!--Med City Beat Portfolio-->
+    <section id="team1" class="pb-5">
+        <div class="container">
+          <!--If i want a header <h5 class="section-title h1"><br>Portfolio</h5>-->
+            <div class="row">
+                <!-- Team member -->
+                <div class="col-xs-12 col-sm-6 col-md-4">
+                    <div class="image-flip" ontouchstart="this.classList.toggle('hover');">
+                        <div class="mainflip">
+                            <div class="frontside">
+                                <div class="card">
+                                    <div class="card-body text-center">
+                                        <p><img class=" img-fluid" src="Nursing.png" alt="Nursing"></p>
+                                        <h4 class="card-title">Hope, Healing and Loss <br>Mayo Clinic Nurses</h4>
+                                        <!--If I want a subheading class="card-text"> <br>St. Norbert College
+                                          <br><em>2013-2017</em></p>-->
+                                        <a href="#" class="btn btn-primary btn-sm"><i class="fa fa-plus"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="backside">
+                                <div class="card">
+                                    <div class="card-body text-center mt-4">
+                                        <h4 class="card-title"><a href="https://www.medcitybeat.com/news-blog/2018/rochester-nurses-remain-resilient"><strong>READ HERE</strong><a/></h4>
+                                        <p class="card-text">I profiled three mayo nurses about how they maintain their mental and physical health while dealing with the most difficult parts of their job.
 
 
-<div class="col-md-4">
-  <h3>Senior Consultant</h3>
-  <h5>St. Norbert College Writing Center</h5>
-  <p><i>Jan. 2015-May 2017</i></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- ./Team member -->
+                <!-- Team member -->
+                <div class="col-xs-12 col-sm-6 col-md-4">
+                    <div class="image-flip" ontouchstart="this.classList.toggle('hover');">
+                        <div class="mainflip">
+                            <div class="frontside">
+                                <div class="card">
+                                    <div class="card-body text-center">
+                                        <p><img class=" img-fluid" src="Dess.png" alt="Dessa"></p>
+                                        <h4 class="card-title">Dessa Explore the Limits of Free Will with "Chime"</h4>
+                                        <!--If I want a subheading <p class="card-text">Institute: Foundation for International Education London <br> <em>Jan-May, 2017</em></p>-->
+                                        <a href="#" class="btn btn-primary btn-sm"><i class="fa fa-plus"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="backside">
+                                <div class="card">
+                                    <div class="card-body text-center mt-4">
+                                        <h4 class="card-title"><strong><a href="https://www.medcitybeat.com/news-blog/2018/interview-dessa-show-rochester-april">READ HERE</strong></a></h4>
+                                        <p class="card-text">Dessa weaves together multifaceted record that keeps the listener guessing with her third album "Chime." I talk to her about her inspiration, and how her album fits in the "Me too" era.</p>
+
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- ./Team member -->
+                <!-- Team member -->
+                <div class="col-xs-12 col-sm-6 col-md-4">
+                    <div class="image-flip" ontouchstart="this.classList.toggle('hover');">
+                        <div class="mainflip">
+                            <div class="frontside">
+                                <div class="card">
+                                    <div class="card-body text-center">
+                                        <p><img class=" img-fluid" src="Jacob.png" alt="Jacob"></p>
+                                        <h4 class="card-title">Autism Foundation Gives Family Incredible Vacation</h4>
+                                        <!--If I want a subclass <p class="card-text">University of Maryland <br> Philip Merrill College of Journalism <br>2018-2020</p>-->
+                                        <a href="#" class="btn btn-primary btn-sm"><i class="fa fa-plus"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="backside">
+                                <div class="card">
+                                    <div class="card-body text-center mt-4">
+                                        <h4 class="card-title"><a  href="https://www.medcitybeat.com/news-blog/2018/autism-foundation-local-family-trip-lifetime"<strong>READ HERE</strong></a></h4>
+                                        <p class="card-text"> Through the generosity of several organizations and individuals in the Rochester community, the Callieses embarked on their first ever family trip last summer, taking their 11-year-old twins Daniel and Jacob to Disney World. Their son Jacob is a child who has autism.</p>
+
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+  <!--path between 5-6-->
+</div>
+<div class="row timeline">
+<div class="col-2">
+  <div class="corner top-right"></div>
+</div>
+<div class="col-8">
+  <hr/>
+</div>
+<div class="col-2">
+  <div class="corner left-bottom"></div>
+  </div>
+</div>
+<!--sixth section-->
+<div class="row align-items-center justify-content-end how-it-works d-flex">
+<div class="col-6 text-right">
+  <h5>Senior Consultant: St. Norbert College Writing Center</a></h5>
   <p>I refined my writing and editing skills while analyzing 15-20 client samples per week, ranging from lab reports to creative writing pieces. Also, I improved my ability to analyze the essential parts of an argument and communicate editing suggestions to clients.</p>
 </div>
-
-<div class="col-md-4">
-  <h3>Founder</h3>
-  <h5>The Conversationalist <a href="https://www.theconversationalistnora.com"></a></h5>
-  <p><i>April 2016-present</i></p>
-  <p>This website is a self-started and maintained platform aimed at encouraging empathetic interaction through longform videos, podcasts, and articles. I have researched and connected with interviewees ranging from the inventor of the first commercial microprocessor to the director of Molecular Medicine at Mayo Clinic. Through this process, I have increased my competency in website design, video, and audio editing.</p>
+<div class="col-2 text-center full d-inline-flex justify-content-center align-items-center">
+  <div class="circle font-weight-bold">6</div>
+</div>
+</div>
+<!--path between 6-7-->
+<div class="row timeline">
+<div class="col-2">
+  <div class="corner right-bottom"></div>
+</div>
+<div class="col-8">
+  <hr/>
+</div>
+<div class="col-2">
+  <div class="corner top-left"></div>
+</div>
+</div>
+<!--seventh section-->
+<div class="row align-items-center how-it-works d-flex">
+<div class="col-2 text-center top d-inline-flex justify-content-center align-items-center">
+  <div class="circle font-weight-bold">7</div>
+</div>
+<div class="col-6">
+  <h5>Research Intern: <a href="http://www.covi.org.uk/">Covi Think Tank</a></h5>
+  <p>Operating under high levels of uncertainty, I summarized and interpreted difficult legal material, composing briefs used by Brown County Court Judges in applying decision to cases.</p>
+</div>
+</div>
+<!--path between 7-8-->
+<div class="row timeline">
+<div class="col-2">
+  <div class="corner top-right"></div>
+</div>
+<div class="col-8">
+  <hr/>
+</div>
+<div class="col-2">
+  <div class="corner left-bottom"></div>
+</div>
+</div>
+<!--eighth section-->
+<div class="row align-items-center justify-content-end how-it-works d-flex">
+<div class="col-6 text-right">
+  <h5>Editing Intern: A Journal of George MacDonald Studies</a></h5>
+  <p>I edited submissions to the globally distributed North Wind journal, advancing my copyediting abilities and competency in Adobe InDesign.</p>
+</div>
+<div class="col-2 text-center full d-inline-flex justify-content-center align-items-center">
+  <div class="circle font-weight-bold">8</div>
+</div>
+</div>
+<!--path between 8-9-->
+<div class="row timeline">
+<div class="col-2">
+  <div class="corner right-bottom"></div>
+</div>
+<div class="col-8">
+  <hr/>
+</div>
+<div class="col-2">
+  <div class="corner top-left"></div>
+</div>
+</div>
+<!--ninth section-->
+<div class="row align-items-center how-it-works d-flex">
+<div class="col-2 text-center top d-inline-flex justify-content-center align-items-center">
+  <div class="circle font-weight-bold">9</div>
+</div>
+<div class="col-6">
+  <h5>Legal Clerk Intern: Brown County Courthouse</h5>
+  <p>Operating under high levels of uncertainty, I summarized and interpreted difficult legal material, composing briefs used by Brown County Court Judges in applying decision to cases.</p>
+</div>
 </div>
 
-</div>
-
-
+<!--Rotating Menu part-->
+  <section id="team" class="pb-5">
+      <div class="container">
+        <h5 class="section-title h1">Education</h5>
+          <div class="row">
+              <!-- Team member -->
+              <div class="col-xs-12 col-sm-6 col-md-4">
+                  <div class="image-flip" ontouchstart="this.classList.toggle('hover');">
+                      <div class="mainflip">
+                          <div class="frontside">
+                              <div class="card">
+                                  <div class="card-body text-center">
+                                      <p><img class=" img-fluid" src="Wisconsin.jpg" alt="Wisconsin"></p>
+                                      <h4 class="card-title">Bachelor of Arts</h4>
+                                      <p class="card-text">Major: English, Minor: Business <br>St. Norbert College
+                                        <br><em>2013-2017</em></p>
+                                      <a href="#" class="btn btn-primary btn-sm"><i class="fa fa-plus"></i></a>
+                                  </div>
+                              </div>
+                          </div>
+                          <div class="backside">
+                              <div class="card">
+                                  <div class="card-body text-center mt-4">
+                                      <h4 class="card-title">A Solid Foundation</h4>
+                                      <p class="card-text">Maintained a 4.0 GPA while participating in social justice organizations, several jobs, and leadership positions. <br> <br> Member of Honor Society</p>
+                                      <ul class="list-inline">
+                                          <li class="list-inline-item">
+                                              <a class="social-icon text-xs-center" target="_blank" href="#">
+                                                  <i class="fa fa-facebook"></i>
+                                              </a>
+                                          </li>
+                                          <li class="list-inline-item">
+                                              <a class="social-icon text-xs-center" target="_blank" href="#">
+                                                  <i class="fa fa-twitter"></i>
+                                              </a>
+                                          </li>
+                                          <li class="list-inline-item">
+                                              <a class="social-icon text-xs-center" target="_blank" href="#">
+                                                  <i class="fa fa-skype"></i>
+                                              </a>
+                                          </li>
+                                          <li class="list-inline-item">
+                                              <a class="social-icon text-xs-center" target="_blank" href="#">
+                                                  <i class="fa fa-google"></i>
+                                              </a>
+                                          </li>
+                                      </ul>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+              <!-- ./Team member -->
+              <!-- Team member -->
+              <div class="col-xs-12 col-sm-6 col-md-4">
+                  <div class="image-flip" ontouchstart="this.classList.toggle('hover');">
+                      <div class="mainflip">
+                          <div class="frontside">
+                              <div class="card">
+                                  <div class="card-body text-center">
+                                      <p><img class=" img-fluid" src="England.jpg" alt="England"></p>
+                                      <h4 class="card-title">Study Abroad</h4>
+                                      <p class="card-text">Institute: Foundation for International Education London <br> <em>Jan-May, 2017</em></p>
+                                      <a href="#" class="btn btn-primary btn-sm"><i class="fa fa-plus"></i></a>
+                                  </div>
+                              </div>
+                          </div>
+                          <div class="backside">
+                              <div class="card">
+                                  <div class="card-body text-center mt-4">
+                                      <h4 class="card-title">Broadening Horizons</h4>
+                                      <p class="card-text">I traveled to five different countries while studying in London, England. <br><br> I studied British history, art, and literature. <br><br>While studying, I interned at CoVi think tank, and helped organize events held at Parliament.</p>
+                                      <ul class="list-inline">
+                                          <li class="list-inline-item">
+                                              <a class="social-icon text-xs-center" target="_blank" href="#">
+                                                  <i class="fa fa-facebook"></i>
+                                              </a>
+                                          </li>
+                                          <li class="list-inline-item">
+                                              <a class="social-icon text-xs-center" target="_blank" href="#">
+                                                  <i class="fa fa-twitter"></i>
+                                              </a>
+                                          </li>
+                                          <li class="list-inline-item">
+                                              <a class="social-icon text-xs-center" target="_blank" href="#">
+                                                  <i class="fa fa-skype"></i>
+                                              </a>
+                                          </li>
+                                          <li class="list-inline-item">
+                                              <a class="social-icon text-xs-center" target="_blank" href="#">
+                                                  <i class="fa fa-google"></i>
+                                              </a>
+                                          </li>
+                                      </ul>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+              <!-- ./Team member -->
+              <!-- Team member -->
+              <div class="col-xs-12 col-sm-6 col-md-4">
+                  <div class="image-flip" ontouchstart="this.classList.toggle('hover');">
+                      <div class="mainflip">
+                          <div class="frontside">
+                              <div class="card">
+                                  <div class="card-body text-center">
+                                      <p><img class=" img-fluid" src="Maryland.jpg" alt="Maryland"></p>
+                                      <h4 class="card-title">Master's in Journalism</h4>
+                                      <p class="card-text">University of Maryland <br> Philip Merrill College of Journalism <br>2018-2020</p>
+                                      <a href="#" class="btn btn-primary btn-sm"><i class="fa fa-plus"></i></a>
+                                  </div>
+                              </div>
+                          </div>
+                          <div class="backside">
+                              <div class="card">
+                                  <div class="card-body text-center mt-4">
+                                      <h4 class="card-title">Fearless Journalism</h4>
+                                      <p class="card-text">Rigorous master's course, including multimedia training, coding, data journalism, and an emphasis on investigative reporting.</p>
+                                      <ul class="list-inline">
+                                          <li class="list-inline-item">
+                                              <a class="social-icon text-xs-center" target="_blank" href="#">
+                                                  <i class="fa fa-facebook"></i>
+                                              </a>
+                                          </li>
+                                          <li class="list-inline-item">
+                                              <a class="social-icon text-xs-center" target="_blank" href="#">
+                                                  <i class="fa fa-twitter"></i>
+                                              </a>
+                                          </li>
+                                          <li class="list-inline-item">
+                                              <a class="social-icon text-xs-center" target="_blank" href="#">
+                                                  <i class="fa fa-skype"></i>
+                                              </a>
+                                          </li>
+                                          <li class="list-inline-item">
+                                              <a class="social-icon text-xs-center" target="_blank" href="#">
+                                                  <i class="fa fa-google"></i>
+                                              </a>
+                                          </li>
+                                      </ul>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </section>
 
 
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
