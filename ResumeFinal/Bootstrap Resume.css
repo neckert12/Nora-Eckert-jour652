@@ -233,3 +233,13 @@ section .section-title {
     margin-left: auto;
     margin-right: auto;
 }
+
+/*Social Media*/
+#share-buttons img {
+width: 35px;
+padding: 5px;
+border: 0;
+box-shadow: 0;
+display: inline;
+margin: auto;
+}
