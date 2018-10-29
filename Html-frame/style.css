@@ -1,9 +1,35 @@
-# container {
+
+.heading {
+  color: red;
+  text-align: center;
+}
+
+#container {
   max-width: 1000px;
   width: 100%;
   margin: 0 auto;
 }
 
-.heading {
-  color: red;
+.chapter {
+
 }
+
+.byline {
+  font: Georgia 16px;
+  text-align: center;
+}
+
+/* Column Formatting */
+.column {
+    float: left;
+    width: 33.33%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* End of column formatting */
