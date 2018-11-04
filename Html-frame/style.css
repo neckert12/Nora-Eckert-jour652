@@ -23,6 +23,8 @@
 .column {
     float: left;
     width: 33.33%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 /* Clear floats after the columns */
@@ -30,6 +32,17 @@
     content: "";
     display: table;
     clear: both;
+}
+
+.caption {
+  text-align: center;
+}
+
+.image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
 
 /* End of column formatting */
