@@ -27,10 +27,16 @@
     border-color: red;
 }
 =======
+<<<<<<< HEAD
+    background-color: red;
+    border-color: red;
+}
+=======
     background-color: #007b5e;
     border-color: #007b5e;
 }8
 >>>>>>> 4d0ae564f6fe65719ecd698ec11831cc071c80d6
+>>>>>>> c606bd75a720712d711c67b0a57f5d01e5dc82d6
 
 section {
     padding: 60px 0;
@@ -43,14 +49,20 @@ section .section-title {
 }
 
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> c606bd75a720712d711c67b0a57f5d01e5dc82d6
 #team1 .card {
     border-style: solid;
     boarder-width: 5px;
     background: white;
 }
 
+<<<<<<< HEAD
+=======
 =======
 >>>>>>> 4d0ae564f6fe65719ecd698ec11831cc071c80d6
+>>>>>>> c606bd75a720712d711c67b0a57f5d01e5dc82d6
 #team .card {
     border: none;
     background: #ffffff;

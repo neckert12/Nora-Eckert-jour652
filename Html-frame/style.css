@@ -19,17 +19,14 @@
   text-align: center;
 }
 
-/* Column Formatting */
-.column {
-    float: left;
-    width: 33.33%;
+
+.caption {
+  text-align: center;
 }
 
-/* Clear floats after the columns */
-.row:after {
-    content: "";
-    display: table;
-    clear: both;
+.image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
-
-/* End of column formatting */
