@@ -91,8 +91,14 @@
  <em>Source: A <a href=" https://www.researchgate.net/publication/282487567_The_Impact_of_Halfway_Houses_on_Parole_Success_and_Recidivism?enrichId=rgreq-2bb164267fefac46c30fc7782b7a11ee-XXX&enrichSource=Y292ZXJQYWdlOzI4MjQ4NzU2NztBUzoyODEyOTAzMjM1Nzg4ODJAMTQ0NDA3NjI0NzI2NA%3D%3D&el=1_x_3&_esc=publicationCoverPdf" target="_blank">study</a> of the impact halfway houses have on recidivism rates</em>
 </div>
 <br>
+
+ <div id="xCompletionRate"></div>
+<em>Offenders who completed parole after stay in an incarceration facility, not a halfway house. <br>Source: A <a href=" https://www.researchgate.net/publication/282487567_The_Impact_of_Halfway_Houses_on_Parole_Success_and_Recidivism?enrichId=rgreq-2bb164267fefac46c30fc7782b7a11ee-XXX&enrichSource=Y292ZXJQYWdlOzI4MjQ4NzU2NztBUzoyODEyOTAzMjM1Nzg4ODJAMTQ0NDA3NjI0NzI2NA%3D%3D&el=1_x_3&_esc=publicationCoverPdf" target="_blank">study</a> of the impact halfway houses have on recidivism rates</em>
+</div>
+<br>
 <br>
 
+  <div id="xCompletionRate"></div>
 
 <!-- END third graphic container-->
 
@@ -144,6 +150,24 @@
       }
     });
 
+    var chart4 = c3.generate({
+       bindto: '#xCompletionRate',
+       data: {
+         // iris data from R
+         columns: [
+           ['Facility members who successfully completed parole', 48],
+           ['Facility members who did not complete parole', 52],
+
+         ],
+         type : 'pie',
+         onclick: function (d, i) { console.log("onclick", d, i); },
+         onmouseover: function (d, i) { console.log("onmouseover", d, i); },
+         onmouseout: function (d, i) { console.log("onmouseout", d, i); }
+       },
+       color: {
+         pattern: ['#2a8dc5', '#455380', '#ee6a4b', '#60c4b2', '#973895']
+       }
+     });
 
   </script>
 
