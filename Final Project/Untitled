@@ -1,0 +1,34 @@
+var chart3 = c3.generate({
+   bindto: '#CompletionSuccess',
+   data: {
+     // iris data from R
+     columns: [
+       ['Successfully Completed', 60%],
+       ['Did not complete', 40%],
+     ],
+     type : 'pie',
+     onclick: function (d, i) { console.log("onclick", d, i); },
+     onmouseover: function (d, i) { console.log("onmouseover", d, i); },
+     onmouseout: function (d, i) { console.log("onmouseout", d, i); }
+   },
+   color: {
+     pattern: ['#2a8dc5', '#455380', '#ee6a4b', '#60c4b2', '#973895']
+   }
+ });
+ var chart3 = c3.generate({
+    bindto: '#ParoleRecidivism',
+    data: {
+      // iris data from R
+      columns: [
+        ['Halfway House Parolees', 28],
+        ['Facility Parolees', 36],
+      ],
+      type : 'pie',
+      onclick: function (d, i) { console.log("onclick", d, i); },
+      onmouseover: function (d, i) { console.log("onmouseover", d, i); },
+      onmouseout: function (d, i) { console.log("onmouseout", d, i); }
+    },
+    color: {
+      pattern: ['#2a8dc5', '#455380', '#ee6a4b', '#60c4b2', '#973895']
+    }
+  });
