@@ -1,0 +1,26 @@
+#container {
+  max-width: 1000px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.graphic-container h2 {
+  text-align: center;
+}
+
+.caption {
+  text-align: center;
+}
+
+.graphic-container {
+  text-align: center;
+}
+
+#map {
+  margin: auto;
+  width: 90%;
+}
+
+.heading2 {
+  text-align: center;
+}
