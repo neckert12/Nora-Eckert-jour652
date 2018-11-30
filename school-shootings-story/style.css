@@ -50,6 +50,8 @@ h3 {
 
 p {
   font-family: 'PT Serif', serif;
+  font-size: 1em;
+  color: black;
 }
 
 /*styling links*/
@@ -103,14 +105,23 @@ ul.navbar-nav {
 .star {
   width: 15px;
   margin-right: 5px;
+  height: 15px;
 }
 
-.stars {
-  margin-left: auto;
-  margin-right: auto;
-  display: block;
+#stars {
+  width: 15px;
+  margin-right: 5px;
+  height: 15px;
 }
 
+.starscenter {
+  width: 100%auto;
+  text-align: center;
+}
+/*
+margin-left: auto;
+margin-right: auto;
+display: inline-block;
 /*styling hero image*/
 .heroimage {
   width: 100%;
@@ -121,11 +132,38 @@ ul.navbar-nav {
 }
 
 .footer {
-  left: 0;
-  bottom: 0;
+  text-align: center;
   width: 100%;
   background-color: black;
   color: white;
-  height: 100px;
-  text-align: center;
+  height: 60px;
+}
+
+.stack-image {
+  width:100%;
+  max-width:900px;
+  margin:0 auto;
+  padding-top:30px;
+}
+
+.caption {
+ width:100%;
+ max-width:900px;
+ margin:0 auto;
+ padding-bottom:30px;
+ font-family: 'Montserrat', sans-serif;
+ color:#999;
+}
+
+.graphic-containerh2 {
+  font-size: 2em;
+}
+
+.graphic-container {
+ padding-top:30px;
+ padding-bottom:30px;
+ border-top:1px solid #cdcdcd;
+ border-bottom:1px solid #cdcdcd;
+ font-family: 'Montserrat', sans-serif;
+ margin:0 auto;
 }
