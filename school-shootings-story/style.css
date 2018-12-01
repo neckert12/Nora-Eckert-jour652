@@ -35,11 +35,17 @@ h4 {
 .chapter {
   font-family: 'Montserrat', sans-serif;
   font-size: 2em;
-  font-weight: 700;
+  font-weight: bold;
   padding-top: 20px;
   width: 100%;
 }
 
+.map {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
 .byline {
   font: Georgia 16px;
   text-align: center;
@@ -182,6 +188,8 @@ display: inline-block;
 #shootingsByYearChart {
   width: 100%;
 }
-em {
-text-align: center;
+
+.textbox {
+  padding-left: 100px;
+  padding-right: 100px;
 }
