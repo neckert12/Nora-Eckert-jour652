@@ -49,7 +49,7 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav mr-auto">
         <li class="nav-item active">
-          <a class="nav-link" href="#">Where & When<a name="Where & When" <span class="sr-only">(current)</span></a>
+          <a class="nav-link" href="#where">Where & When</a>
         </li>
         <li class="nav-item active">
           <a class="nav-link" href="#">A Profile <span class="sr-only">(current)</span></a>
@@ -91,7 +91,7 @@ With little government or academic research into the phenomenon of school shooti
 <body>
   <div class="row">
 
-  <img src="redstar.png" class="star"><img src="bluestar.png" class="star"><h2 class="chapter"> 1. School shootings happen all over the U.S.</h2>
+  <h2 class="chapter"> <img src="redstar.png" class="star"><img src="bluestar.png" class="star">1. School shootings happen all over the U.S.</h2>
 
 
 <p>At least five school school shootings have occurred every year since 1999, with an average number of 11 shootings per-year.  2006 and 2014 had the highest number of incidents with fifteen and sixteen school shootings, respectively. As can be seen the chart below, the past three years have remained consistently high, with at least a dozen incidents each year.</p>
@@ -160,7 +160,7 @@ Graphic: Pie chart showing yes / no
 
 
 <div class="graphic-container">
-  <h2>Where do school shootings occur?</h2>
+  <h2><a name="where">Where do school shootings occur?</a></h2>
     <div id="shootingsByTypeChart"></div>
   <em>Source: Data collected by The Washington Post</em>
 </div>
@@ -189,7 +189,7 @@ Graphic: Pie chart showing yes / no
 <br>
 
 <!-- c3 script-->
-<script>
+<script type="text/javascript">
 //CHART 1
 var chart = c3.generate({
  bindto: '#shootingsByYearChart',
@@ -207,9 +207,9 @@ var chart = c3.generate({
 
 
 <!-- c3 script-->
-<script type="text/javascript">
+
 //CHART 1
-var chart = c3.generate({
+var chart1 = c3.generate({
  bindto: '#myLineChart',
  data: {
    x: 'x',
