@@ -10,6 +10,18 @@
 h5 {
   text-align: center;
   font-family:'Expletus Sans', cursive;
+  color: red;
+  display: block;
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.video {
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 #container {
@@ -187,7 +199,7 @@ p {
 /*styling links*/
 
 a:link {
-  color: #e0162b;
+  color: red;
   text-decoration: none;
 }
 
@@ -196,7 +208,7 @@ a:visited {
 }
 
 a:hover {
-  color: #0052a5;
+  color: red;
 }
 
 /* default colors and text styles*/
@@ -217,7 +229,7 @@ p{
 /* styling the nav bar*/
 
 .bg-dark {
- background:#000 !important;
+ background:black !important;
 }
 
 ul.navbar-nav {
